@@ -620,7 +620,9 @@ enum BLE_GAP_TX_POWER_ROLES
  * @{ */
 #define BLE_GAP_EVENT_LENGTH_MIN            (2)  /**< Minimum event length, in 1.25 ms units. */
 #define BLE_GAP_EVENT_LENGTH_CODED_PHY_MIN  (6)  /**< The shortest event length in 1.25 ms units supporting LE Coded PHY. */
+#ifndef BLE_GAP_EVENT_LENGTH_DEFAULT
 #define BLE_GAP_EVENT_LENGTH_DEFAULT        (3)  /**< Default event length, in 1.25 ms units. */
+#endif
 /**@} */
 
 

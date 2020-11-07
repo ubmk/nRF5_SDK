@@ -61,7 +61,9 @@ extern "C" {
  * @{ */
 
 /** @brief Default ATT MTU, in bytes. */
+#ifndef BLE_GATT_ATT_MTU_DEFAULT
 #define BLE_GATT_ATT_MTU_DEFAULT          23
+#endif
 
 /**@brief Invalid Attribute Handle. */
 #define BLE_GATT_HANDLE_INVALID            0x0000

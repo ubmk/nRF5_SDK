@@ -194,7 +194,9 @@ enum BLE_GATTS_CFGS
 /** @defgroup BLE_GATTS_DEFAULTS GATT Server defaults
  * @{
  */
+#ifndef BLE_GATTS_HVN_TX_QUEUE_SIZE_DEFAULT
 #define BLE_GATTS_HVN_TX_QUEUE_SIZE_DEFAULT  1 /**< Default number of Handle Value Notifications that can be queued for transmission. */
+#endif
 /** @} */
 
 /** @} */

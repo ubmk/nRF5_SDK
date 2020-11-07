@@ -115,7 +115,9 @@ enum BLE_GATTC_EVTS
 
 /** @defgroup BLE_GATTC_DEFAULTS GATT Client defaults
  * @{ */
+#ifndef BLE_GATTC_WRITE_CMD_TX_QUEUE_SIZE_DEFAULT
 #define BLE_GATTC_WRITE_CMD_TX_QUEUE_SIZE_DEFAULT  1 /**< Default number of Write without Response that can be queued for transmission. */
+#endif
 /** @} */
 
 /** @} */
